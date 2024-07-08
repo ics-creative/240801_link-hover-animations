@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* aタグ用リセットスタイル */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* 字間が広がるアニメーション */
+.text {
+  transition: 0.2s ease-out; /* アニメーション設定 */
+}
+.text:hover {
+  letter-spacing: 0.05em; /* 字間の設定 */
+}

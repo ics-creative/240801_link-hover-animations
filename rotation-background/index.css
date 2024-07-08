@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* aタグ用リセットスタイル */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* テキストが上下に回転するアニメーション */
+.text {
+  padding: 0 10px;
+  /* 1つ目にシャドウを隠す */
+  overflow: hidden;
+  color: transparent; /* テキスト本体は透明にする */
+  /*
+   影の設定
+   1つ目：Y方向の位置にマイナスに設定してテキスト本体の上に配置、ぼかしなし
+   2つ目：位置はテキスト本体と同じ、ぼかしなし
+  */
+  text-shadow: 0 -1.5em 0 #000, 0 0 0 #000;
+  background: linear-gradient(to bottom, #000 50%, transparent 50%) 0 100%;
+  background-size: 100% 200%;
+  transition: text-shadow 0.2s ease-in-out, background-position 0.2s ease-out;
+}
+.text:hover {
+  text-shadow: 0 0 0 #fff, 0 1.5em 0 #000; /* 2つの影の位置を上方向に1.5emずつずらす */
+  background-position: 0 0;
+}

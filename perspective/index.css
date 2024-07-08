@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* aタグ用リセットスタイル */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* テキストにパースがつくアニメーション */
+.text {
+  /* 初期値のinlineではtransformが効かないため指定 */
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+.text:hover {
+  transform: perspective(600px) rotateY(-15deg) rotateX(20deg);
+}

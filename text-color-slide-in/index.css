@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* aタグ用リセットスタイル */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* テキストカラーが左から変化するアニメーション */
+.text {
+  /* 文字色は透明にして背景が見えるようにする */
+  color: transparent;
+  /* 青と黒が50%の位置で切り替わるグラデーション */
+  background: linear-gradient(to right, blue 50%, #000 50%) 100%;
+  /* 背景をテキストで切り抜く */
+  background-clip: text;
+  /* 横幅は200%にしてグラデーションの青部分は見えないようにする */
+  background-size: 200% 100%;
+  transition: background-position 0.3s ease-out;
+}
+.text:hover {
+  /* グラデーションの位置を移動して、青部分を見せる */
+  background-position: 0 100%;
+}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* aタグ用リセットスタイル */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* テキストが一瞬ぼかされるアニメーション */
+.text:hover {
+  animation: text-blur 0.4s ease-out;
+}
+
+/* アニメーション設定 */
+@keyframes text-blur {
+  0% {
+    filter: blur(0);
+  }
+  50% {
+    filter: blur(4px); /* ぼかしの強さ */
+  }
+  100% {
+    filter: blur(0);
+  }
+}

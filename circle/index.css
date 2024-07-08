@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* aタグ用リセットスタイル */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* 左側から円が現れるアニメーション */
+.text {
+  display: flex; /* テキストと疑似要素を横並びにする */
+  align-items: center; /* 上下中央に揃える */
+}
+.text::before {
+  width: 0; /* 初期表示は表示しないようにする */
+  height: 0;
+  content: "";
+  background-color: transparent;
+  border-radius: 50%;
+  transition: 0.2s ease-out;
+}
+.text:hover::before {
+  width: 0.25em; /* ホバー時に表示 */
+  height: 0.25em;
+  margin-right: 36px;
+  background-color: #000;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* aタグ用リセットスタイル */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* 背景あり ぼかし */
+body {
+  background-image: url("./images/bg.jpg");
+  background-size: cover;
+}
+
+/* テキストカラーと背景色が左から変化するアニメーション */
+.text {
+  position: relative;
+  padding: 0 10px; /* 見た目調整用の余白 */
+  color: #fff; /* 文字色 */
+  mix-blend-mode: difference;
+}
+.text::before {
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 100%;
+  content: "";
+  background-color: white;
+  mix-blend-mode: difference; /* difference（差分） */
+  transition: 0.2s ease-out; /* アニメーション設定 */
+}
+.text:hover::before {
+  width: 100%;
+}
