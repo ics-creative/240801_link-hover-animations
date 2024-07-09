@@ -14,7 +14,7 @@ body {
 .text {
   position: relative;
   padding: 0 20px;
-  color: rgba(255, 255, 255, 0.5333333333);
+  color: #fff8;
 }
 .text::before {
   position: absolute;
@@ -26,6 +26,7 @@ body {
   content: "";
   transition: 0.2s ease-out;
 }
+
 .text:hover::before {
   -webkit-backdrop-filter: blur(10px); /* Safari表示用 */
   backdrop-filter: blur(10px); /* 背景をぼかす */

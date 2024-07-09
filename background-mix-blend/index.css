@@ -15,9 +15,10 @@ body {
 .text {
   position: relative;
   padding: 0 10px; /* 見た目調整用の余白 */
-  color: #fff; /* 文字色 */
-  mix-blend-mode: difference;
+  color: #fff;
+  mix-blend-mode: difference; /* difference（差分） */
 }
+
 .text::before {
   position: absolute;
   left: 0;
@@ -26,8 +27,9 @@ body {
   content: "";
   background-color: white;
   mix-blend-mode: difference; /* difference（差分） */
-  transition: 0.2s ease-out; /* アニメーション設定 */
+  transition: 0.2s ease-out;
 }
+
 .text:hover::before {
   width: 100%;
 }

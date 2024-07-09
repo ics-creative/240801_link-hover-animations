@@ -7,8 +7,9 @@ a {
 
 /* 字間が広がるアニメーション */
 .text {
-  transition: 0.2s ease-out; /* アニメーション設定 */
+  transition: letter-spacing 0.2s ease-out;
 }
+
 .text:hover {
   letter-spacing: 0.05em; /* 字間の設定 */
 }

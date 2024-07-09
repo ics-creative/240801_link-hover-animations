@@ -9,9 +9,10 @@ a {
 .text {
   position: relative;
   padding: 0 10px; /* 見た目調整用の余白 */
-  color: #000; /* 文字色 */
-  background-color: #fff; /* 背景色 */
+  color: #000;
+  background-color: #fff;
 }
+
 .text::before {
   position: absolute;
   left: 0;
@@ -20,8 +21,9 @@ a {
   content: "";
   background-color: #fff;
   mix-blend-mode: difference; /* difference（差分） */
-  transition: 0.2s ease-out; /* アニメーション設定 */
+  transition: 0.2s ease-out;
 }
+
 .text:hover::before {
   width: 100%;
 }

@@ -7,10 +7,11 @@ a {
 
 /* テキストにパースがつくアニメーション */
 .text {
-  /* 初期値のinlineではtransformが効かないため指定 */
+  /* 初期値のinlineではtransformが効かないためinline-blockを指定 */
   display: inline-block;
   transition: transform 0.2s ease-in-out;
 }
+
 .text:hover {
   transform: perspective(600px) rotateY(-15deg) rotateX(20deg);
 }

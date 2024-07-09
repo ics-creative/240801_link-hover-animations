@@ -21,7 +21,11 @@ a {
   background-size: 100% 200%;
   transition: text-shadow 0.2s ease-in-out, background-position 0.2s ease-out;
 }
+
 .text:hover {
-  text-shadow: 0 0 0 #fff, 0 1.5em 0 #000; /* 2つの影の位置を上方向に1.5emずつずらす */
+  /* 2つの影の位置を上方向に1.5emずつずらす */
+  text-shadow: 0 0 0 #fff, 0 1.5em 0 #000;
+
+  /* 背景の位置を動かす */
   background-position: 0 0;
 }

@@ -14,6 +14,7 @@ a {
   background-size: 0 1px; /* 下線のサイズ（横幅、高さ） */
   transition: background-size 0.2s ease-out; /* アニメーション設定 */
 }
+
 .text:hover {
   background-position: bottom left; /* 下線のホバー時位置 */
   background-size: 100% 1px; /* 下線の横幅を100%にする */
