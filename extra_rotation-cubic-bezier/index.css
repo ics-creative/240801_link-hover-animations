@@ -5,7 +5,7 @@ a {
   text-decoration: none;
 }
 
-/* テキストが上下に回転するアニメーション */
+/* おまけ：テキストが上下に回転するアニメーションの緩急を調整した例 */
 .text {
   overflow: hidden; /* 1つ目にシャドウを隠す */
   color: transparent; /* テキスト本体は透明にする */
@@ -16,7 +16,7 @@ a {
   */
   text-shadow: 0 -1.5em 0 #000, 0 0 0 #000;
 
-  /* cubic-bezierを使用して緩急をつける */
+  /* cubic-bezierを使用して緩急にメリハリをつける */
   transition: text-shadow 0.4s cubic-bezier(0.7, 0, 0.1, 1);
 }
 

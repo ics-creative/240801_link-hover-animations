@@ -6,12 +6,14 @@ a {
 }
 
 /* テキストにパースがつくアニメーション */
-.text {
+.text span {
   /* 初期値のinlineではtransformが効かないためinline-blockを指定 */
   display: inline-block;
   transition: transform 0.2s ease-in-out;
 }
 
-.text:hover {
+.text:hover span {
   transform: perspective(600px) rotateY(-15deg) rotateX(20deg);
+
 }
+

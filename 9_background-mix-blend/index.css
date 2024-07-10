@@ -5,7 +5,7 @@ a {
   text-decoration: none;
 }
 
-/* 背景あり ぼかし */
+/* テキストカラーと背景色が左から変化するアニメーション（画像背景あり） */
 body {
   background-image: url("./images/bg.jpg");
   background-size: cover;
