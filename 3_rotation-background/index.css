@@ -8,7 +8,7 @@ a {
 /* テキストが上下に回転するアニメーション */
 .text {
   padding: 0 10px;
-  /* 1つ目にシャドウを隠す */
+  /* 1つ目のシャドウを隠す */
   overflow: hidden;
   color: transparent; /* テキスト本体は透明にする */
   /*
