@@ -15,8 +15,11 @@ a {
   */
   text-shadow: 0 -1.5em 0 #000, 0 0 0 #000;
 
-  /* cubic-bezierを使用して緩急にメリハリをつける */
-  transition: text-shadow 0.4s cubic-bezier(0.7, 0, 0.1, 1);
+  /*
+  cubic-bezierを使用して緩急にメリハリをつける
+  easeInOutQuartのイージング
+  */
+  transition: text-shadow 0.4s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
 .text:hover {
