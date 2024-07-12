@@ -6,7 +6,7 @@ a {
 
 /* 字間が広がるアニメーション */
 .text {
-  transition: letter-spacing 0.2s ease-out;
+  transition: letter-spacing 0.2s;
 }
 
 .text:hover {

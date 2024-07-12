@@ -6,7 +6,7 @@ a {
 
 /* テキストが一瞬ぼかされるアニメーション */
 .text:hover {
-  animation: text-blur 0.4s ease-out;
+  animation: text-blur 0.4s;
 }
 
 /* アニメーション設定 */
