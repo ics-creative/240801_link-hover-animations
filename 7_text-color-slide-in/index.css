@@ -18,7 +18,7 @@ a {
   /* 横幅は200%にしてグラデーションの青部分は見えないようにする */
   background-size: 200% 100%;
 
-  transition: background-position 0.3s;
+  transition: background-position 0.2s;
 }
 
 .text:hover {
