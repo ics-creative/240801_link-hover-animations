@@ -16,7 +16,7 @@ a {
   content: "";
   background-color: transparent;
   border-radius: 50%;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .text:hover::before {

@@ -20,7 +20,7 @@ a {
   content: "";
   background-color: #fff;
   mix-blend-mode: difference; /* difference（差分） */
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .text:hover::before {

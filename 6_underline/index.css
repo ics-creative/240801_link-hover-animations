@@ -11,7 +11,7 @@ a {
   background-repeat: no-repeat;
   background-position: bottom right; /* 下線の初期位置 */
   background-size: 0 1px; /* 下線のサイズ（横幅、高さ） */
-  transition: background-size 0.2s; /* アニメーション設定 */
+  transition: background-size 0.3s; /* アニメーション設定 */
 }
 
 .text:hover {

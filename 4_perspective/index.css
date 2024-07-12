@@ -8,7 +8,7 @@ a {
 .text span {
   /* 初期値のinlineではtransformが効かないためinline-blockを指定 */
   display: inline-block;
-  transition: transform 0.2s;
+  transition: transform 0.3s;
 }
 
 .text:hover span {
