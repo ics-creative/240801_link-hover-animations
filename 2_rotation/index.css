@@ -6,7 +6,7 @@ a {
 
 /* テキストが上下に回転するアニメーション */
 .text {
-  overflow: hidden; /* 1つ目のシャドウを隠す */
+  overflow: hidden; /* 1つ目の影を隠す */
   color: transparent; /* テキスト本体は透明にする */
   font-size: 60px;
   /*
