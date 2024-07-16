@@ -8,10 +8,10 @@ a {
 .text {
   /* 文字色は透明にして背景が見えるようにする */
   color: transparent;
+  font-size: 60px;
 
   /* 青と黒が50%の位置で切り替わるグラデーション */
-  background: linear-gradient(to right, blue 50%, #000 50%) 100%;
-
+  background: linear-gradient(to right, coral 50%, #000 50%) 100%;
   /* 背景をテキストで切り抜く */
   background-clip: text;
 

@@ -6,6 +6,7 @@ a {
 
 /* 字間が広がるアニメーション */
 .text {
+  font-size: 60px;
   transition: letter-spacing 0.3s;
 }
 

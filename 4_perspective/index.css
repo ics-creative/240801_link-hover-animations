@@ -8,6 +8,7 @@ a {
 .text span {
   /* 初期値のinlineではtransformが効かないためinline-blockを指定 */
   display: inline-block;
+  font-size: 60px;
   transition: transform 0.3s;
 }
 

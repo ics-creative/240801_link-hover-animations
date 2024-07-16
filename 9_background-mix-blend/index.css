@@ -15,6 +15,7 @@ body {
   position: relative;
   padding: 0 10px; /* 見た目調整用の余白 */
   color: #fff;
+  font-size: 60px;
   mix-blend-mode: difference; /* difference（差分） */
 }
 

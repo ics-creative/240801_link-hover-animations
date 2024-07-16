@@ -9,6 +9,7 @@ a {
   position: relative;
   padding: 0 10px; /* 見た目調整用の余白 */
   color: #000;
+  font-size: 60px;
   background-color: #fff;
 }
 

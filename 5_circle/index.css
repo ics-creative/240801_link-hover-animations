@@ -7,6 +7,7 @@ a {
 /* 左側から円が現れるアニメーション */
 .text {
   display: flex; /* テキストと疑似要素を横並びにする */
+  font-size: 60px;
   align-items: center; /* 上下中央に揃える */
 }
 

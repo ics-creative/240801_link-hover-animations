@@ -5,6 +5,9 @@ a {
 }
 
 /* テキストが一瞬ぼかされるアニメーション */
+.text {
+  font-size: 60px;
+}
 .text:hover {
   animation: text-blur 0.5s;
 }
