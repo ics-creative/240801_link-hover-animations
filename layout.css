@@ -8,5 +8,6 @@ body {
   place-content: center;
   height: 100%;
   margin: 0;
+  background-color: #fff;
   font-family: sans-serif;
 }
